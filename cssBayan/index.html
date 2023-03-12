@@ -5,39 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="icon" href="./assets/svg/logo_vector.svg">
+    <link rel="icon" href="./assets/svg/cross.svg">
     <title>CSS-Bayan | Rolling Scopes School | Codejam #1 </title>
 </head>
 <body>
-    <header class="header">
+    <div class="content">
         <h1 class="title">CSS Bayan</h1>
-    </header>
-    <content class="content">
-        <div class="content__item">
-            <input class="content__item__input" type="radio" name="items" id="item_1" checked>
-            <label class="content__item__title" for="item_1">You can't just copy and paste CSS</label>
-            <img class="content__item__img" src="./assets/img/image1.png" alt="You can't just copy and paste CSS"> 
+        <div class="content__container">
+          <div class="content__item">
+            <input class="content__item__input" type="radio" name="content__item__titles" id="content__item__title_1" checked>
+            <label for="content__item__title_1" class="content__item__title">
+              <div class="content__title">You can't just copy and paste CSS<span>&#43;</span></div>
+              <img class="content__item__img" src="./assets/img/image1.png" alt="You can't just copy and paste CSS">
+            </label>
+          </div>
+          <div class="content__item">
+            <input class="content__item__input" type="radio" name="content__item__titles" id="content__item__title_2">
+            <label for="content__item__title_2" class="content__item__title">
+              <div class="content__title">Keep calm and carry on<span>&#43;</span></div>
+              <img class="content__item__img" src="./assets/img/image2.png" alt="Keep calm and carry on">
+            </label>
+          </div>
+          <div class="content__item">
+            <input class="content__item__input" type="radio" name="content__item__titles" id="content__item__title_3">
+            <label for="content__item__title_3" class="content__item__title">
+              <div class="content__title">Work-life balance<span>&#43;</span></div>
+              <img class="content__item__img" src="./assets/img/image3.png" alt="Work-life balance">
+            </label>
+          </div>
+          <div class="content__item">
+            <input class="content__item__input" type="radio" name="content__item__titles" id="content__item__title_4">
+            <label for="content__item__title_4" class="content__item__title">
+              <div class="content__title">Dude, where is JS?<span>&#43;</span></div>
+              <img class="content__item__img" src="./assets/img/image4.png" alt="Dude, where is JS?">
+            </label>
+          </div>
+          <div class="content__item">
+            <input class="content__item__input" type="radio" name="content__item__titles" id="content__item__title_5">
+            <label for="content__item__title_5" class="content__item__title">
+              <div class="content__title">Relax, and take it easy<span>&#43;</span></div>
+              <img class="content__item__img" src="./assets/img/image5.png" alt="Relax, and take it easy">
+            </label>
+          </div>
         </div>
-        <div class="content__item">
-            <input class="content__item__input" type="radio" name="items" id="item_2">
-            <label class="content__item__title" for="item_2">Keep calm and carry on</label>
-            <img class="content__item__img" src="./assets/img/image2.png" alt="Keep calm and carry on"> 
-        </div>
-        <div class="content__item">
-            <input class="content__item__input" type="radio" name="items" id="item_3">
-            <label class="content__item__title" for="item_3">Work-life balance</label>
-            <img class="content__item__img" src="./assets/img/image3.png" alt="Work-life balance"> 
-        </div>
-        <div class="content__item">
-            <input class="content__item__input" type="radio" name="items" id="item_4">
-            <label class="content__item__title" for="item_4">Dude, where is JS?</label>
-            <img class="content__item__img" src="./assets/img/image4.png" alt="Dude, where is JS?"> 
-        </div>
-        <div class="content__item">
-            <input class="content__item__input" type="radio" name="items" id="item_5">
-            <label class="content__item__title" for="item_5">Relax, and take it easy</label>
-            <img class="content__item__img" src="./assets/img/image5.png" alt="Relax, and take it easy"> 
-        </div>
-    </content>
+    </div>
 </body>
 </html>
